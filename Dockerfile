@@ -9,5 +9,5 @@ COPY . .
 RUN npm install
 
 EXPOSE 8080
-
+ghg
 CMD [ "node", "index.js" ]
